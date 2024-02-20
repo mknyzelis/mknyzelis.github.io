@@ -1,0 +1,92 @@
+body {
+  background-color: #939599;
+  font-family: "Playfair Display", serif;
+}
+.city-picture {
+  width: 500px;
+}
+
+header {
+  background-color: #1C110A;
+}
+header h2 {
+  color: #fff;
+  margin: 0;
+  padding: 40px;
+  font-family: "Shadows Into Light", cursive;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1C110A;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #F7E12B;
+}
+
+footer {
+  background-color: #175676;
+  padding: 40px;
+}
+footer p {
+  color: #fff;
+  margin: 0;
+}
+
+#container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.two-column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+  background-color: #F7E12B;
+}
+.two-column div {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.three-column {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 40px;
+  background-color: red;
+}
+
+.three-column div {
+  background-color: #fff;
+  margin-righ: 10px;
+  margin-left: 10px;
+}
+
+#about .three-column {
+	background-color: #D8F793;
+}
+#about .three-column div {
+	background-color: blue;
+}
+#projects .two-column {
+	padding: 10px 40px;
+	background-color: green;
+}
